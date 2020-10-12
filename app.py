@@ -11,5 +11,4 @@ def process():                ##called when user input is given and submit butto
     user_input = request.form["user_input"]
     return render_template("output.html",user_input=["Your Roll No is - E17CSE113"])
 
-if __name__ == '__main__':
-   app.run(host='127.10.0.0', port=int('8000'), debug = True)##0.0.0.0.,80
+
