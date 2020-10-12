@@ -31,4 +31,4 @@ jobs:
       with:
         app-name: 'pyweb'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_ef2f7bcaeec04bbca1ec6ccce5bb9707 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_5fe7d0be8c644429884d21bef7f70c5b }}
